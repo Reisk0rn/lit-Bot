@@ -22,10 +22,10 @@ client.on('message', message => {
 
 });
 
-    bot.user.setActivity('dir beim kacken zu', { type: 'WATCHING' }).catch(console.error);
+    client.user.setActivity('dir beim kacken zu', { type: 'WATCHING' }).catch(console.error);
 })
 
-bot.on('guildMemberAdd', member => {
+client.on('guildMemberAdd', member => {
 
     const channel = member.guild.channels.find(channel => channel.name === "╠●welcome🎉🤗♥");
     if (!channel) return;
@@ -75,4 +75,4 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 
-client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
+client.login(process.env.NTg4MDM4NTg5NDE4MzA3NjMy.XQELJQ.Szyl2LrCrSLI7YU9mtduukd2Sb0);//where BOT_TOKEN is the token of our bot
